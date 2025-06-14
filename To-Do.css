@@ -1,0 +1,70 @@
+body{
+    background-color:darkcyan;
+    margin-left: 500px;
+}
+.main{
+    width: 440px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+    border-radius: 15px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.btn{
+    width: 30%;
+    height: 48px;
+    background-color:black;
+    color: white;
+    margin-top:-47px ;
+    margin-left: 270px;
+}
+#btn:hover {
+    background-color: red; /* Lighter green color for hover */
+    transition: background-color 0.2s; /* Optional: Smooth transition */
+}
+#input{
+    width: 70%;
+    height: 40px;
+    border-color: aqua;
+    margin-left: -100px;
+}
+.todo {
+  background-color: transparent;
+  width: 400px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo ul {
+  background-color: #f8f9fa;
+  width: 100%;
+  padding: 14px 18px;
+  margin-top: -15px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease;
+}
+.todo ul:hover {
+  background-color: #e0f7fa;
+}
+.todo ul ion-icon {
+  font-size: 20px;
+  color: #d32f2f;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.todo ul ion-icon:hover {
+  color: #b71c1c;
+}
